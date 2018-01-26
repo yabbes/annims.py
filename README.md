@@ -3,6 +3,10 @@ stands for Anniversaire Mail Service
 
 It is a little handy python3 script you can add to your cronjobs if you are like me and you keep forgetting birthdays!
 
+### What does it do?
+Keeps track of the birthdays you add to the text file bdaylist.txt
+when a birthday is in a certain time interval it will send you a friendly reminder email
+
 ### How to use
 - git clone this
 - add your GMail account to account_info.py
