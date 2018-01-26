@@ -16,7 +16,8 @@ when a birthday is in a certain time interval it will send you a friendly remind
 - edit the bdaylist.txt file
     - Add birthday dates either in DD-MM-YYYY or just DD-MM format
     - Use ":" as a delimiter between date and name
-- Read about using [anacron](https://www.systutorials.com/docs/linux/man/8-anacron/) for this, if you don't want to deploy this on a system that is always on
+    - Because this is most likely run by a system wide cron you'll have to supply the location of your bdaylist.txt in settings.py in the *file_location* variable
+- Read about using [anacron](https://www.systutorials.com/docs/linux/man/8-anacron/) for annims.py, if you don't want to deploy this on a system that is always on
 
 ### When does it remind me?
 As per default the time interval is set to 5 days in "settings.py"

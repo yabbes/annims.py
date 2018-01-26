@@ -30,7 +30,7 @@ def check_full_date(bday):
 
 def parse_list():
     birthdaystring = ""
-    with open('bdaylist.txt') as f:
+    with open(st.file_location) as f:
         bdaylist = f.readlines()
 
     for b in bdaylist:
