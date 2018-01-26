@@ -1,0 +1,5 @@
+# Format for the birthdays in this file should be either DD-MM-YYYY
+# or DD-MM if you do not know the year
+# Use ":" as a delimiter between date and the name
+# Example:
+# 03-12-1944 : Antonio Variações
